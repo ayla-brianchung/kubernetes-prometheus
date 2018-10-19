@@ -15,7 +15,7 @@ mkdir -p /opt/kubernetes-prometheus/grafana
 
 To quickly start all the things just do this:
 ```bash
-kubectl create -f manifest-all.yml
+kubectl create -f manifests-all.yaml
 ```
 
 This will create the namespace `monitoring` and bring up all components in there.
